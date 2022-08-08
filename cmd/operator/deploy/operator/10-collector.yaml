@@ -62,6 +62,7 @@ spec:
         - --web.enable-lifecycle
         - --web.route-prefix=/
         - --export.user-agent=prometheus/2.35.0-gmp.2 (mode:kubectl)
+        - --export.endpoint=staging-monitoring.sandbox.googleapis.com:443
         # The environment variable EXTRA_ARGS will be populated by the operator.
         # DO NOT specify it here.
         env:
