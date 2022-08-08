@@ -15,13 +15,13 @@
 apiVersion: monitoring.googleapis.com/v1
 kind: PodMonitoring
 metadata:
-  name: prom-example
+  name: avalanche
   labels:
-    app.kubernetes.io/name: prom-example
+    app.kubernetes.io/name: avalanche
 spec:
   selector:
     matchLabels:
-      app: prom-example
+      app: avalanche
   endpoints:
   - port: metrics
     interval: 30s
