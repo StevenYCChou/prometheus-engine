@@ -206,7 +206,9 @@ spec:
         - "--operator-namespace=gmp-system"
         - "--public-namespace=gmp-public"
         - "--webhook-addr=:10250"
+        - "--collector-memory-resource=8000"
         - "--collector-memory-limit=16000"
+        - "--collector-cpu-resource=100"
         - "--collector-cpu-limit=5000"
         ports:
         - name: web
