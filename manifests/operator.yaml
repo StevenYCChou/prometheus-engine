@@ -206,6 +206,7 @@ spec:
         - "--operator-namespace=gmp-system"
         - "--public-namespace=gmp-public"
         - "--webhook-addr=:10250"
+        - "--collector-memory-limit=-1"
         ports:
         - name: web
           # Note this should match the --listen-addr flag passed in to the operator args.
