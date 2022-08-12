@@ -516,11 +516,11 @@ spec:
             scheme: HTTP
         resources:
           limits:
-            cpu: 1000m
-            memory: 3G
+            cpu: 5000m
+            memory: 16G
           requests:
             cpu: 100m
-            memory: 200M
+            memory: 8G
         volumeMounts:
         - name: storage
           mountPath: /prometheus/data
