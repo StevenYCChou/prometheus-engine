@@ -519,7 +519,7 @@ spec:
             scheme: HTTP
         resources:
           limits:
-            cpu: 5000m
+            cpu: 40000m
             memory: 40G
           requests:
             cpu: 100m
