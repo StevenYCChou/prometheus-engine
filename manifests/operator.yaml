@@ -207,7 +207,7 @@ spec:
         - "--public-namespace=gmp-public"
         - "--webhook-addr=:10250"
         - "--collector-memory-resource=8000"
-        - "--collector-memory-limit=-1"
+        - "--collector-memory-limit=40000"
         - "--collector-cpu-resource=100"
         - "--collector-cpu-limit=-1"
         ports:
@@ -518,6 +518,8 @@ spec:
             port: 19090
             scheme: HTTP
         resources:
+          limits:
+            cpu: 40000m
           requests:
             cpu: 100m
             memory: 8G
