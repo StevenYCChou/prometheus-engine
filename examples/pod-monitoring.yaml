@@ -24,4 +24,4 @@ spec:
       app: avalanche
   endpoints:
   - port: metrics
-    interval: 30s
+    interval: 30m
