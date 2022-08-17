@@ -29,7 +29,7 @@ spec:
       - name: pg-avalanche
         image: quay.io/freshtracks.io/avalanche:latest
         args:
-        - "--metric-count=20000"
+        - "--metric-count=25000"
         - "--value-interval=300"
         - "--series-interval=86400"
         - "--metric-interval=604800"
